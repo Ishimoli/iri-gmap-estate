@@ -1,0 +1,15 @@
+.DS_Store
+.vscode/
+.idea/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+ios/Podfile
+ios/Flutter/*
+webapi/node_modules/
+webapi/tmp/
+webapi/src/node_modules/
+webapi/src/tmp/
+*.mp4

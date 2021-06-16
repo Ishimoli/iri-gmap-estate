@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "770460216045",
+    "firebase_url": "https://direct-video.firebaseio.com",
+    "project_id": "direct-video",
+    "storage_bucket": "direct-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770460216045:android:a3b2ff07b9bc5fb843bae4",
+        "android_client_info": {
+          "package_name": "jp.direct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770460216045-5hroch0gjv5t3toq5r2d29cir6h9rikj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq6j7jbzR11ZJ3mixV-FJIm_XRM53cV4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770460216045-5hroch0gjv5t3toq5r2d29cir6h9rikj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

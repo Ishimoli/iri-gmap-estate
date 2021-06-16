@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>770460216045-1qgff6sqmltiq9koed98j74addsdnquh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.770460216045-1qgff6sqmltiq9koed98j74addsdnquh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCONrGM45l_-96Nh52Wahx-78QhaM-34e8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>770460216045</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jp.direct</string>
+	<key>PROJECT_ID</key>
+	<string>direct-video</string>
+	<key>STORAGE_BUCKET</key>
+	<string>direct-video.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:770460216045:ios:c58eef416698272e43bae4</string>
+	<key>DATABASE_URL</key>
+	<string>https://direct-video.firebaseio.com</string>
+</dict>
+</plist>

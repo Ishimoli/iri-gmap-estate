@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  video:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ffmpeg
+    container_name: vc
+    ports:
+      - "3001:3000"
