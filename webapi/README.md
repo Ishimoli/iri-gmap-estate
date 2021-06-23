@@ -1,4 +1,4 @@
-# Direct Web API
+# Direct Web API ダイレクトWebAPIについて
 Celebrity Video &amp; LIVE named Direct Web API
 
 PAYJP
@@ -69,3 +69,6 @@ curl -u user:pass -X POST http://localhost:3000/video/upload
 
 ## Resource
 https://console.cloud.google.com/run/detail/asia-northeast1/direct/revisions?hl=ja&project=estplante
+
+
+TODO プロジェクトがestplanteになっているのをどうにかしないといけない

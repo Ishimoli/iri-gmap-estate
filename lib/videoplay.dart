@@ -7,8 +7,7 @@ import 'package:video_player/video_player.dart';
 import 'package:dio/dio.dart';
 
 import 'confirm.dart';
-import 'orders.dart';
-import 'root.dart';
+import 'myorders.dart';
 
 class VideoPlayView extends StatefulWidget {
   final String filePath;

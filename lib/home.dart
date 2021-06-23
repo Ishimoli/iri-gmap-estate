@@ -3,14 +3,14 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
-import 'package:direct/profile.dart';
-import 'package:direct/request.dart';
+import 'profile.dart';
+import 'request.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:video_player/video_player.dart';
 
-import 'orders.dart';
+import 'myorders.dart';
 import 'package:intl/intl.dart';
 
 class HomeView extends StatefulWidget {
@@ -345,15 +345,17 @@ class _HomeViewState extends State<HomeView> {
       ),
       onTap: () async {
         if (notification.route == "orders") {
+          // ファンからビデオリクエストが届いています
           Navigator.of(context).push(MaterialPageRoute(builder: (context) {
             notification.deleted = DateTime.now();
             Firestore.instance
                 .collection('Notification')
                 .document(notification.reference.documentID)
                 .setData(notification.map());
-            return MyOrders(user: user);
+            return MyOrdersView(user: user);
           }));
         } else if (notification.route == "recieve") {
+          // アイドルからビデオが届きました。
           var getNewVideo = await Firestore.instance
               .collection('Order')
               .orderBy("accepted", descending: true)

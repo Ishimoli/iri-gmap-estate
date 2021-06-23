@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:direct/main.dart';
+import 'home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
-import 'orders.dart';
+import 'myorders.dart';
 import 'payinfo.dart';
 
 class RecieveView extends StatefulWidget {

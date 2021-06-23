@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'orders.dart';
+import 'myorders.dart';
 
 class DummyView extends StatefulWidget {
   DummyView();
@@ -48,7 +48,7 @@ class _DummyViewState extends State<DummyView> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-            return MyOrders();
+            return MyOrdersView();
           }));
         },
         child: Icon(Icons.keyboard_return),

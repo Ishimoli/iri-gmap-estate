@@ -1,14 +1,14 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:direct/confirm.dart';
-import 'package:direct/video.dart';
+import 'confirm.dart';
+import 'video.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'orders.dart';
+import 'myorders.dart';
 
 class OrderView extends StatefulWidget {
   final Order order;

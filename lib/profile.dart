@@ -1,6 +1,6 @@
-import 'package:direct/orders.dart';
-import 'package:direct/payinfo.dart';
-import 'package:direct/root.dart';
+import 'myorders.dart';
+import 'payinfo.dart';
+import 'root.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -35,7 +35,7 @@ class _ProfileViewState extends State<ProfileView> {
             child: Container(
               child: Center(
                 child: Text(
-                  '個人情報・プロフィール画面 ' + user.email,
+                  '個人情報・プロフィール画面 ', // + user.email,
                   style: TextStyle(color: Colors.black, fontSize: 18.0),
                 ),
               ),
@@ -88,7 +88,7 @@ class _ProfileViewState extends State<ProfileView> {
                 Text('自分にきたリクエスト（インフルエンサー）', style: TextStyle(fontSize: 20.0)),
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-                return MyOrders(user: user);
+                return MyOrdersView(user: user);
               }));
             },
           ),

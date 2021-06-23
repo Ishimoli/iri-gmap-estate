@@ -14,6 +14,7 @@ const serviceAccount = require("./serviceAccountKey.json");
 const { exec } = require('child_process')
 
 const admins = {
+    // TODO パスワードがありえないことになっているのでハッシュ値にする
     'user': { password: 'pass' },
 };
 

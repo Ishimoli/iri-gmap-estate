@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'main.dart';
+import 'home.dart';
 import 'login.dart';
 
 class RootView extends StatefulWidget {
@@ -52,19 +52,4 @@ class _RootViewState extends State<RootView> {
       ),
     );
   }
-}
-
-class DirectApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        theme: ThemeData(
-          primaryColor: Colors.blueGrey[800],
-        ),
-        home: RootView());
-  }
-}
-
-void main() async {
-  runApp(DirectApp());
 }

@@ -1,19 +1,19 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:direct/order.dart';
+import 'order.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:gradient_app_bar/gradient_app_bar.dart';
 
-class MyOrders extends StatefulWidget {
+class MyOrdersView extends StatefulWidget {
   final FirebaseUser user;
 
-  MyOrders({this.user});
+  MyOrdersView({this.user});
 
   @override
   _MyOrdersState createState() => _MyOrdersState();
 }
 
-class _MyOrdersState extends State<MyOrders> {
+class _MyOrdersState extends State<MyOrdersView> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(

@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
-import 'package:direct/main.dart';
-import 'package:direct/payinfo.dart';
+import 'home.dart';
+import 'payinfo.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'orders.dart';
+import 'myorders.dart';
 
 class ConfirmView extends StatefulWidget {
   final String filePath;
