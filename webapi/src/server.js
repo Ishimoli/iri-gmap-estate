@@ -129,7 +129,7 @@ const uploadFileToGCS = (filePath, res) => {
     bucket.upload(filePath)
         .then((uploadResponse) => {
             console.log(uploadResponse[0].metadata.name);
-            res.status(200).send({ video: uploadResponse[0].metadata.name });
+            res.status(200).json({ video: uploadResponse[0].metadata.name }).send()
         })
         .catch(err => {
             console.error(err);

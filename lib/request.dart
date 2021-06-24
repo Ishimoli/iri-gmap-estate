@@ -130,6 +130,7 @@ class _RequestViewState extends State<RequestView> {
           } else if (snapshot.data.documents.length == 0) {
             return Center();
           }
+          // TODO アイドルのビデオを購入するにはVideoServiceを登録しないといけない
           List<VideoService> services = snapshot.data.documents
               .map<VideoService>((e) => VideoService.fromSnapshot(e))
               .toList();
