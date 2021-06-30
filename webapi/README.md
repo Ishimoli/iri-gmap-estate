@@ -8,6 +8,8 @@ CLOUD RUN
 https://console.cloud.google.com/run/detail/asia-northeast1/direct/metrics?project=estplante
 
 BUILD
+https://console.cloud.google.com/cloud-build/dashboard?project=direct-video
+
 https://console.cloud.google.com/cloud-build/builds?project=estplante
 
 CLOUD LOGGER

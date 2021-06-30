@@ -44,8 +44,8 @@ class _ConfirmViewScreenState extends State<ConfirmView> {
           },
         ),
       );
-      print(response.data.toString());
-      return json.decode(response.data..toString());
+      Map<String, String> result = json.decode(response.data.toString());
+      return Future.value(result);
     } catch (e) {
       print(e);
       return Future.error(e);
